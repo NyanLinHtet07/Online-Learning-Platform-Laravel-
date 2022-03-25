@@ -1,0 +1,439 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+.yunghkio {
+font-family:"Masterpiece Uni Sans",Yunghkio;
+}
+.myanmar3 {
+font-family:"Masterpiece Uni Sans",Myanmar3;
+}
+.padauk {
+font-family:"Masterpiece Uni Sans",Padauk;
+}
+.zawgyi {
+font-family:Zawgyi-One;
+}
+.parabaik {
+font-family:"Masterpiece Uni Sans",Parabaik;
+}
+
+body{
+    width: 100%;
+    height: 100% ;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+   background: white  ;
+    /* background: linear-gradient(  #F3F7FA, #EBFFFE ) ; */
+    
+}
+
+
+.background{
+    background: darkslategrey;
+    width: 380px;
+    height: 380px;
+    min-width: auto;
+    min-height: auto;
+   padding:10px;
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .background{
+        width: 300px;
+        min-width: auto;
+        height: 300px;
+        min-height: auto;
+        padding:10px;
+    }
+}
+
+.brand-img{
+    width: 500px !important ;
+    height: 400px !important;
+ 
+    padding: 20px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+
+
+
+@media only screen and (max-width:600px)
+{
+    .brand-img{
+        width: 300px;
+        height: 300px;
+      
+        margin-left: 40px;
+        margin-top: 30px;
+        padding:20px;
+    
+    }
+}
+
+
+
+
+
+
+/*
+------------------------------------------------------------------------------------------------------
+            right
+
+------------------------------------------------------------------------------------------------------
+*/
+.brand-img-right{
+    width: 550px ;
+    height: 650px ;
+    min-width: auto ;
+    min-height: auto ;
+    padding: 10px;
+    margin-left: -60px;
+    margin-top: -40px;
+}
+
+@media only screen and (max-width:500px)
+{
+    .brand-img-right{
+        width: 300px;
+        height: 300px;
+        min-height: auto;
+        min-width: auto;
+        margin-left: -25px;
+        margin-top: -25px;
+    
+    }
+}
+
+/*
+----------------------------------------
+   text
+---------------------------------------
+*/
+.text{
+ 
+font-size: 15px !important;
+font-weight: lighter !important;
+text-align: justify;
+}
+
+
+/*--------------------------
+download-link-img
+-------------------------------
+*/
+
+.download-link-img{
+    width: 600px;
+    height: 300px;
+    min-width: auto;
+    min-height: auto;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------------
+                                            nav
+-------------------------------------------------------------------------------------
+*/
+
+.learning_nav{
+    background:  #309C25;
+    color: white !important;
+    font-weight: 20px !important;
+}
+
+.learning_nav ul li {
+   
+    font-size: 20px ;
+    font-weight: normal;
+   
+}
+.learning_nav ul li a {
+    color: white !important;
+    text-decoration: none;
+}
+.learning_nav ul li a:hover{
+    color: #696161;
+    transition: 0.3s else !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+--------------------------------------------
+    for choose subject in learninng field
+--------------------------------------------
+*/
+
+.btn-learn {
+    width: 180px !important;
+    height: 65px;
+       background: linear-gradient(  #309C25, #ECFDEE ) ;
+  
+    border: none !important;
+    border-radius: 4px !important;
+    color: white !important;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    padding: auto;
+
+}
+
+.btn-blue{
+    width: 200px !important;
+    height: 70px;
+    
+       background: linear-gradient(  #007FE0, #ECFDEE ) ;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color:#ffffff;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    padding: auto;
+}
+
+.btn-red{
+    width: 200px !important;
+    height: 70px;
+       background: linear-gradient(  #b90808, #ECFDEE ) ;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    padding: auto;
+}
+
+.btn-green{
+    width: 200px !important;
+    height: 70px;
+       background: linear-gradient(  #0aa33d, #ECFDEE ) ;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    padding: auto;
+}
+
+.btn-skyblue{
+    width: 200px !important;
+    height: 70px;
+       background: linear-gradient(  #0c7486, #ECFDEE ) ;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    padding: auto;
+}
+
+.btn-gray{
+    width: 200px !important;
+    height: 70px;
+       background: linear-gradient(  #696161, #ECFDEE ) ;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    padding: auto;
+}
+
+.btn-yellow{
+    width: 200px !important;
+    height: 70px;
+       background: linear-gradient(  #a8940f, #ECFDEE ) ;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    padding: auto;
+}
+
+.btn-violent{
+    width: 200px !important;
+    height: 70px;
+       background: linear-gradient(  #581456, #ECFDEE ) ;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    padding: auto;
+}
+
+@media only screen and (max-width:500px)
+{
+    .btn-blue , .btn-red, .btn-green, .btn-skyblue, .btn-yellow, .btn-violent, .btn-gray{
+        width: 85% !important;
+    }
+}
+
+.view_sample{
+    border-radius: 20px !important;
+    border:none;
+}
+
+.video-list {
+    width:100% !important;
+    height:80px !important;
+    border: none;
+    border-radius: 5px;
+}
+
+/*
+----------------------------------------------------------------------------------------
+                                                teacher template
+----------------------------------------------------------------------------------------
+*/
+
+.teacher_tp{
+    width: 130px !important;
+    min-width: auto;
+    border: none;
+}
+
+
+
+/*
+--------------------------------------------------------------------------------------------------
+
+        for register
+--------------------------------------------------------------------------------------------------
+*/
+
+.auth_body
+{
+background: #95E38C;
+
+}
+
+.auth_card{
+    padding: 20px !important;
+    margin-top: 50px;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+/*
+---------------------------------------------------------------------------------------------------
+        for lecture list
+
+---------------------------------------------------------------------------------------------------
+*/
+.lecture_list{
+    width: auto;
+    height: fit-content;
+    overflow-y: scroll;
+}
+
+
+/*
+-------------------------------------------------------------------------------------------------------
+                                                            for carf image
+-------------------------------------------------------------------------------------------------------
+*/
+
+.chapter_card {
+    height: 520px !important;
+    line-height: 14px;
+}
+.card_img{
+    width: 300px !important;
+    min-width: auto !important;
+    height: 300px !important;
+    min-height: auto !important;
+}
+
+.learn_img {
+    width: 400px !important; 
+    height: 300px !important;
+    min-width: auto;
+    min-height:  auto;
+
+}
+.lession_img{
+    width: 200px !important;
+    height: 180px !important;
+}
+
+
+
+/* for css wave*/
+.custom-shape-divider-bottom-1607187587 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1607187587 svg {
+    position: relative;
+    display: block;
+    width: calc(227% + 1.3px);
+    height: 177px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1607187587 .shape-fill {
+    fill: #B8E986;
+}
+
+
+.custom-shape-divider-top-1607187687 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1607187687 svg {
+    position: relative;
+    display: block;
+    width: calc(227% + 1.3px);
+    height: 177px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1607187687 .shape-fill {
+    fill: #B8E986;
+}
